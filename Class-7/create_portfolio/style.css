@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Metropoli_regular' ;
+    src: url('fonts/Metropolis-Regular.otf');
+}
+@font-face {
+    font-family: 'Metropoli_bold' ;
+    src: url('fonts/Metropolis-Bold.otf');
+}
+
+:root{
+    --primary-bg: #1ABC9C;  
+    --secondary-bg:#2C3E50;
+    --text-primary:#2C3E50;
+    --text-secondary:#1ABC9C;
+    --text-white:#fff;    
+}
+
+
+
+body{
+
+    font-family: "Poppins", sans-serif;
+
+}
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 8px;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-item{
+    align-items: center;
+}
+
+nav{
+    background: var(--secondary-bg);
+    color: var(--text-white);
+    padding: 20px 0;
+}
+.main-menu{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.main-menu li a {
+    color: var(--text-white);
+    display: inline-block;
+    padding: 10px 24px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.main-menu li a:hover{
+    color: var(--text-secondary);
+}
+
+.logo {
+    margin-bottom: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+/* banner css */
+
+.banner{
+    background: var(--primary-bg);
+    padding: 80px 0;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content img {
+    width: 250px;
+}
+
+.banner-content h1 {
+    font-size: 58px;
+    color: var(--text-white);
+    
+}
+.banner-content p{
+    font-size: 22px;
+    color: var(--text-white);
+}
+.btn-action {
+    display: inline-block;
+    background: var(--secondary-bg);
+    padding: 14px 22px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 28px;
+    margin-top: 28px;
+}
+
+/* about */
+.about{
+    padding: 50px 0;
+}
+.section-title{
+    text-align: center;
+    font-size: 28px;
+    color: var(--text-primary);
+}
+.about-content p{
+    font-size: 18px;
+}
+.skills{
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+.skills li{
+    background: var(--secondary-bg);
+    color: var(--text-white);
+    padding: 4px 8px;
+    border-radius: 16px;
+}
