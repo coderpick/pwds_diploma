@@ -1,0 +1,60 @@
+:root {
+  --primary-bg: rgb(247, 68, 78);
+  --primary-text: rgb(247, 68, 78);
+  --secondary-bg: #002c3e;
+  --secondary-text: #002c3e;
+  --text-color: #0c0c0c;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.product-card {
+  position: relative;
+}
+span.discount {
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  background: red;
+  font-size: 16px;
+  color: #fff !important;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 600;
+}
+.carousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+  background-color: var(--primary-bg);
+  background-clip: padding-box;
+  border-radius: 50%;
+}
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+  height: 100vh;
+}
+.slider-content {
+  padding: 150px 0;
+}
+.slider-content h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 52px;
+  color: var(--secondary-text);
+}
+.slider-content h1 span {
+  display: block;
+  color: var(--primary-text);
+}
