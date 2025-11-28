@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Foodix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Hanken+Grotesk:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="vendors/owl_carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/owl_carousel/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="assets/icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg sticky-top main-menu">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                <img src="images/logo/logo-main.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Our Chefs</a></li>
+                            <li><a class="dropdown-item" href="#">Our Gallery</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div>
+                    <a class="btn btn-danger" type="submit">Book A table</a>
+                    <button class="btn btn-success" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRightCartNav" aria-controls="offcanvasRightCartNav">
+                        <i class="bi bi-cart"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- banner start -->
+    <div class="banner">
+        <div class="banner-animation-img-one">
+            <img src="images/hero/image-one.png" alt="">
+        </div>
+        <div class="banner-animation-img-two">
+            <img src="images/hero/shape-1.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="banner-content">
+                        <h5>Hot for every Friday
+                        </h5>
+                        <h1>Sushi Flavors <br> Redefined</h1>
+                        <h4>Cluckin' Good Chicken Delight: A savory haven for chicken lovers offering meticulously
+                            crafted dishes bursting with
+                            flavor.</h4>
+
+                        <a class="btn-order" type="submit">Order Now</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- about start -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <img class="img-fluid" src="images/about/about-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h5>About Us</h5>
+                        <h2>Welcome to Foodix</h2>
+                        <p>At Foodix, we believe that food is more than just sustenance; it's an experience that brings
+                            people together. Our mission is to create a culinary journey that delights the senses and
+                            satisfies the soul. From farm-fresh ingredients to innovative recipes, we are dedicated to
+                            delivering exceptional flavors and memorable dining experiences.</p>
+                        <a class="btn-about" type="submit">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+    <!-- special menu section start -->
+    <section id="menu-section" c class="py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <p>Our special menu</p>
+                <h1>Savor Our Sushi Selection</h1>
+                <p>Indulge in an array of meticulously crafted sushi rolls, artfully blending
+                    fresh ingredients for a delightful taste experience.</p>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <ul class="nav nav-pills mb-3 food-menus" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="Sushi-tab" data-bs-toggle="pill" data-bs-target="#Sushi"
+                                type="button" role="tab" aria-controls="Sushi" aria-selected="true">Sushi</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pizza-tab" data-bs-toggle="pill" data-bs-target="#pizza"
+                                type="button" role="tab" aria-controls="pizza" aria-selected="false">PIZZA</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Contact</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled"
+                                aria-selected="false" disabled>Disabled</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tab-content" id="pills-tabContent">
+
+                <div class="tab-pane fade show active" id="Sushi" role="tabpanel" aria-labelledby="Sushi-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="single-menu-item text-center mb-4">
+                                <div class="overly-bg"></div>
+                                <div class="menu-img mb-3">
+                                    <img class="img-fluid" src="images/menu/menu-1_8.jpg" alt="">
+                                </div>
+                                <div class="menu-content">
+                                    <h5>Salmon Sushi</h5>
+                                    <p>Fresh salmon slices atop seasoned rice, garnished with a touch of wasabi and soy
+                                        sauce.</p>
+                                    <span>$12.99</span>
+                                </div>
+                                <div class="mt-3">
+                                    <a class="btn-order-now btn btn-outline-success btn-lg d-block" type="submit">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-menu-item text-center mb-4">
+                                <div class="overly-bg"></div>
+                                <div class="menu-img mb-3">
+                                    <img class="img-fluid" src="images/menu/menu-1_8.jpg" alt="">
+                                </div>
+                                <div class="menu-content">
+                                    <h5>Salmon Sushi</h5>
+                                    <p>Fresh salmon slices atop seasoned rice, garnished with a touch of wasabi and soy
+                                        sauce.</p>
+                                    <span>$12.99</span>
+                                </div>
+                                <div class="mt-3">
+                                    <a class="btn-order-now btn btn-outline-success btn-lg d-block" type="submit">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-menu-item text-center mb-4">
+                                <div class="overly-bg"></div>
+                                <div class="menu-img mb-3">
+                                    <img class="img-fluid" src="images/menu/menu-1_8.jpg" alt="">
+                                </div>
+                                <div class="menu-content">
+                                    <h5>Salmon Sushi</h5>
+                                    <p>Fresh salmon slices atop seasoned rice, garnished with a touch of wasabi and soy
+                                        sauce.</p>
+                                    <span>$12.99</span>
+                                </div>
+                                <div class="mt-3">
+                                    <a class="btn-order-now btn btn-outline-success btn-lg d-block" type="submit">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab" tabindex="0">
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="single-menu-item text-center mb-4">
+                                <div class="overly-bg"></div>
+                                <div class="menu-img mb-3">
+                                    <img class="img-fluid" src="images/menu/menu-1_8.jpg" alt="">
+                                </div>
+                                <div class="menu-content">
+                                    <h5>Salmon Sushi</h5>
+                                    <p>Fresh salmon slices atop seasoned rice, garnished with a touch of wasabi and soy
+                                        sauce.</p>
+                                    <span>$12.99</span>
+                                </div>
+                                <div class="mt-3">
+                                    <a class="btn-order-now btn btn-outline-success btn-lg d-block" type="submit">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-menu-item text-center mb-4">
+                                <div class="overly-bg"></div>
+                                <div class="menu-img mb-3">
+                                    <img class="img-fluid" src="images/menu/menu-1_8.jpg" alt="">
+                                </div>
+                                <div class="menu-content">
+                                    <h5>Salmon Sushi</h5>
+                                    <p>Fresh salmon slices atop seasoned rice, garnished with a touch of wasabi and soy
+                                        sauce.</p>
+                                    <span>$12.99</span>
+                                </div>
+                                <div class="mt-3">
+                                    <a class="btn-order-now btn btn-outline-success btn-lg d-block" type="submit">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-menu-item text-center mb-4">
+                                <div class="overly-bg"></div>
+                                <div class="menu-img mb-3">
+                                    <img class="img-fluid" src="images/menu/menu-1_8.jpg" alt="">
+                                </div>
+                                <div class="menu-content">
+                                    <h5>Salmon Sushi</h5>
+                                    <p>Fresh salmon slices atop seasoned rice, garnished with a touch of wasabi and soy
+                                        sauce.</p>
+                                    <span>$12.99</span>
+                                </div>
+                                <div class="mt-3">
+                                    <a class="btn-order-now btn btn-outline-success btn-lg d-block" type="submit">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                    tabindex="0">
+
+
+                </div>
+
+                <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+                    tabindex="0">...
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- special menu section end -->
+
+
+
+    <!-- Testimonial section start -->
+    <section class="py-5">
+        <div class="container">
+            <div class="section-title text-center">
+                <p>Testimonials</p>
+                <h1>What Our Customers Say</h1>
+                <p>Discover why our customers love Foodix! Read their testimonials and see how we've delighted
+                    taste buds and created memorable dining experiences.</p>
+            </div>
+
+            <div class="owl-carousel mt-5">
+                <div>
+                    <img src="images/product/cart-1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/product/cart-1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/product/cart-1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/product/cart-1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/product/cart-1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/product/cart-1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="images/product/cart-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial section end -->
+    <!-- cart offcanvas nav items start -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightCartNav" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header d-flex justify-content-between align-items-center">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">My Cart</h5>
+            <button type="button" class="btn btn-outline-danger btn-sm" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="bi bi-x"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="cart-items">
+                <div class="single-cart-item d-flex justify-content-between align-items-center mb-4">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                            <img class="cart-product-img" src="images/product/cart-1.jpg" alt="...">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <strong>Urban Bourbon Bliss Ribeye</strong>
+                            <p>1 × $940.00</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-danger btn-sm">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="single-cart-item d-flex justify-content-between align-items-center mb-4">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                            <img class="cart-product-img" src="images/product/cart-1.jpg" alt="...">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <strong>Urban Bourbon Bliss Ribeye</strong>
+                            <p>1 × $940.00</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-danger btn-sm">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- <p>Your cart is currently empty.</p> -->
+        </div>
+    </div>
+    <!-- cart offcanvas nav items end -->
+
+    <!-- bootstrap js load -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="vendors/owl_carousel//owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 4,
+                loop: true,
+                margin: 20,
+                autoplay: true,
+                autoplayTimeout: 1000,
+                autoplayHoverPause: true,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+
+                    },
+                    1000: {
+                        items: 3,
+
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
